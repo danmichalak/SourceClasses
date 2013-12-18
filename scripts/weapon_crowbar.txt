@@ -5,7 +5,7 @@ WeaponData
 	// Increased Damage
 	"CycleTime"			"0.4"
 	"Damage"			"100"
-
+	//lja5 - i tried something similar to change damage for my mod, and this didnt work. I think to change damage, is in the sdk_weapon_thing.
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"#SDK_Weapon_Crowbar"
 	"viewmodel"			"models/weapons/v_crowbar.mdl"
