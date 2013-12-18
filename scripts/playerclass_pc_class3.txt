@@ -1,5 +1,7 @@
 PlayerClassDatafile
 {
+	// File for unaffiliated Sorcerer (not used)	
+
 	// FilePLayerClassInfo_t members
 	"printname"			"#class_pc_class3"	
 	"playermodel"			"models/player/blue_player.mdl"
@@ -11,9 +13,10 @@ PlayerClassDatafile
 	"team"				"NONE"
 
 	// Weapon Info
+	// Changed weapons from "mp5", "shotgun", "crowbar"
 	"primaryweapon"		"mp5"
-	"secondaryweapon"	"shotgun"
-	"meleeweapon"		"crowbar"
+	"secondaryweapon"	"pistol"
+	"meleeweapon"		"none"
 
 	"grenadetype"		"grenade"
 	"numgrens"		"4"
@@ -23,10 +26,12 @@ PlayerClassDatafile
 	"classimage"		"cls_pc_class3_active"
 	"classimagebg"		"cls_pc_class3_active_bg"
 
-	"armor"			"150"
+	// Decreased armor
+	"armor"			"0"
 
-	// Movement
-	"RunSpeed"		"200"
+	// Movement (only run speed is used)
+	// Increased run speed
+	"RunSpeed"		"220"
 	"SprintSpeed"		"280"
 	"ProneSpeed"		"50"
 }

@@ -1,5 +1,7 @@
 PlayerClassDatafile
 {
+	// File for Red Team Sorcerer	
+
 	// FilePLayerClassInfo_t members
 	"printname"			"#class_red_class3"	
 	"playermodel"			"models/player/red_player.mdl"
@@ -11,9 +13,10 @@ PlayerClassDatafile
 	"team"				"RED"
 
 	// Weapon Info
+	// Changed weapons from "mp5", "shotgun", "crowbar"
 	"primaryweapon"		"mp5"
-	"secondaryweapon"	"shotgun"
-	"meleeweapon"		"crowbar"
+	"secondaryweapon"	"pistol"
+	"meleeweapon"		"none"
 
 	"grenadetype"		"grenade"
 	"numgrens"		"4"
@@ -22,11 +25,13 @@ PlayerClassDatafile
 
 	"classimage"		"cls_red_class3_active"
 	"classimagebg"		"cls_red_class3_active_bg"
+	
+	//Decreased armor
+	"armor"			"0"
 
-	"armor"			"150"
-
-	// Movement
-	"RunSpeed"		"200"
+	// Movement (only run speed is used)
+	// Increased run speed
+	"RunSpeed"		"220"
 	"SprintSpeed"		"280"
 	"ProneSpeed"		"50"
 }

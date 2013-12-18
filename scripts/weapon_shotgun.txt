@@ -1,7 +1,7 @@
 WeaponData
 {
-	// Weapon characteristics:
-	"Damage"			"22"
+	// Weapon characteristics: (increased damage)
+	"Damage"			"30"
 	"Bullets"			"9"
 	"CycleTime"			"0.85"
 

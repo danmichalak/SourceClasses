@@ -1,5 +1,7 @@
 PlayerClassDatafile
 {
+	// File for Red Team Crusader	
+
 	// FilePLayerClassInfo_t members
 	"printname"			"#class_red_class2"	
 	"playermodel"			"models/player/red_player.mdl"
@@ -22,11 +24,13 @@ PlayerClassDatafile
 
 	"classimage"		"cls_red_class2_active"
 	"classimagebg"		"cls_red_class2_active_bg"
+	
+	// Increased Armor
+	"armor"			"250"
 
-	"armor"			"100"
-
-	// Movement
-	"RunSpeed"		"220"
+	// Movement (only run speed is used)
+	// Decreased run speed
+	"RunSpeed"		"175"
 	"SprintSpeed"		"330"
 	"ProneSpeed"		"60"
 }

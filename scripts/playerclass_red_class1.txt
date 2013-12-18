@@ -1,5 +1,7 @@
 PlayerClassDatafile
 {
+	// File for Red Team Berserker	
+
 	// FilePLayerClassInfo_t members
 	"printname"			"#class_red_class1"	
 	"playermodel"			"models/player/red_player.mdl"
@@ -11,22 +13,26 @@ PlayerClassDatafile
 	"team"				"RED"
 
 	// Weapon Info
-	"primaryweapon"		"pistol"
+	// Default weapons from "pistol", "none", "crowbar"
+	"primaryweapon"		"crowbar"
 	"secondaryweapon"	"none"
-	"meleeweapon"		"crowbar"
-
+	"meleeweapon"		"none"
+	
+	// Changed grenade count to 0
 	"grenadetype"		"grenade"
-	"numgrens"		"1"
+	"numgrens"		"0"
 	
 	"limitcvar"		"mp_limit_red_class1"
 
 	"classimage"		"cls_red_class1_active"
 	"classimagebg"		"cls_red_class1_active_bg"
+	
+	// Increased Armor
+	"armor"			"250"
 
-	"armor"			"50"
-
-	// Movement
-	"RunSpeed"		"240"
+	// Movement (only RunSpeed is used)
+	// Increased run speed
+	"RunSpeed"		"300"
 	"SprintSpeed"		"360"
 	"ProneSpeed"		"70"
 }
