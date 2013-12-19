@@ -1,4 +1,4 @@
-//===== Copyright © 1996-2005, Valve Corporation, All rights reserved. ======//
+//===== Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ======//
 //
 // Purpose: Functions dealing with the player.
 //
@@ -66,7 +66,7 @@
 #include "fogcontroller.h"
 #include "gameinterface.h"
 #include "hl2orange.spa.h"
-
+//lja5 - holy includes, batdan! theres so much code it slowed down my machine
 #ifdef HL2_DLL
 #include "combine_mine.h"
 #include "weapon_physcannon.h"
